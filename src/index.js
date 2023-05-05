@@ -3,11 +3,32 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { configureStore } from '@reduxjs/toolkit';
+import { Provider } from 'react-redux';
+import personalSlice from './component/data/personalData';
+import aboutSlice from './component/data/About';
+import workSlice from './component/data/Work';
+import educationSlice from './component/data/Education';
+import languageSlice from './component/data/Language';
+import projectSlice from './component/data/Project';
+import  skillSlice  from './component/data/Skill'
+const store = configureStore({
+  reducer:{
+    personalInfo:personalSlice,
+    about:aboutSlice,
+    work:workSlice,
+    education:educationSlice,
+    language:languageSlice,
+    pro:projectSlice,
+    skill:skillSlice,
+  },
+});
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Provider store={store}>
     <App />
+    </Provider>
   </React.StrictMode>
 );
 

@@ -1,0 +1,22 @@
+.language-container
+{
+    text-align: center;
+}
+.form-control
+{
+padding: 10px;
+}
+.form-control input
+{
+    width: 36%;
+}
+.form-control select
+{
+    width: 36%;
+    padding: 8px;
+    border-radius: 5px;
+}
+.form-control label
+{
+    margin-right: 10px;
+}

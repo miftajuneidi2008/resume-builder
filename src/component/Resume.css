@@ -1,0 +1,92 @@
+.resume-container
+{
+    margin: 5px 50px;
+}
+.personal-data
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+
+
+}
+.personal-data .links
+{
+    text-decoration: underline;
+    color: rgb(29, 112, 236);
+}
+.about{
+   margin: 5px 5px 10px 10px;
+}
+.name
+{
+    font-weight: bolder;
+    color: rgb(10, 77, 116);
+    font-size: 1.3rem;
+    padding: 8px;
+}
+.phone,.email,.date,.linked,.github
+{
+    padding: 8px;
+}
+.about h3
+{
+    color: rgb(44, 44, 243);
+}
+.work
+{
+    margin: 5px 5px 10px 10px; 
+}
+.work .works
+{
+    padding: 5px;
+}
+.work h3{
+    color: rgb(44, 44, 243);
+}
+.language .listen,.speak,.write,.read{
+    color: rgb(39, 19, 19);
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin: 0 10px;
+
+}
+.language p
+{
+    text-transform: capitalize;
+    color: rgb(41, 97, 4);
+}
+.language .lang
+{
+    color: rgb(4, 88, 243);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.language h3,.project h3,.skills-container h3
+{
+    color: rgb(44, 44, 243);
+}
+.pro
+{
+    padding: 5px;
+}
+
+.pro p
+{
+    margin: 3px 0;
+    color: rgb(97, 94, 94);
+    font-style:initial;
+}
+.project
+{
+    padding-top: 10px;
+}
+.skills
+{
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+    gap: 1rem;
+}
